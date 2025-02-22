@@ -1,7 +1,7 @@
 ##Guessing Game Flowchart
 ```mermaid
 flowchart TD
-A[Start/Generates a random number] --> B{Does the user guess correctly?};
+A[Start/Generates a random number] --> Z[Prompt the user to guess] --> B{Does the user guess correctly?};
 B -- Yes --> C[Congradulate the user];
 B -- No --> D{Did the user guess too high or too low?};
 D -- Too High --> E[Inform the user of too high];
